@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SgServerApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(SgServerApplication.class, args);
     }
 
