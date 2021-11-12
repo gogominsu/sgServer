@@ -27,6 +27,14 @@
     box-shadow: 0 0 600px 9px #fcae8f;
     border-radius: 30px;
 }
+.align-center{
+    text-align: center;
+}
+.topcorner{
+    position:absolute;
+    top:0;
+    right:0;
+}
 .togglebtn {
     padding: 10px 30px;
     cursor: pointer;
