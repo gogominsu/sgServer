@@ -21,4 +21,8 @@ public class HomeController {
     public String members(){
         return "members";
     }
+    @GetMapping("/login")
+    public String login(){
+        return "login_resist_form";
+    }
 }
