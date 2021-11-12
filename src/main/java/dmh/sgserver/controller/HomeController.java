@@ -9,6 +9,8 @@ public class HomeController {
     public String homepage(){
         return "home";
     }
+    @GetMapping("/aaa")
+    public String apaage() {return "login_resist_form";}
     @GetMapping("/signin")
     public String signIn(){
         return "signin";
