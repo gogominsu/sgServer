@@ -9,9 +9,11 @@
 <main>
     <header><h1>기구 리스트</h1></header>
     <tr th:each="instance: ${machineData}">
-        <td th:text="${instance.key}">keyValue</td>
-        :
-        <td th:text="${instance.value}">num</td>
+        <td>
+            <p th:text="${instance.key} + '번째 기구'">keyValue</p>
+            <img th:if="${instance.value} == true" src="/img/exercising.svg" alt="사용중입니다">
+            <img th:unless="${instance.value} == true" src="/img/resting.svg" alt="사용중이아닙니다">
+        </td>
         <br>
     </tr>
 
