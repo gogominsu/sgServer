@@ -9,16 +9,8 @@ public class HomeController {
     public String homepage(){
         return "home";
     }
-    @GetMapping("/signin")
-    public String signIn(){
-        return "signin";
-    }
-    @GetMapping("/signup")
-    public String signUp(){
-        return "signup";
-    }
-    @GetMapping("/members")
-    public String members(){
-        return "members";
+    @GetMapping("/login")
+    public String login(){
+        return "login_resist_form";
     }
 }
